@@ -1,6 +1,6 @@
 = Spring Cloud Security
 :github: https://github.com/spring-cloud/spring-cloud-security
-:githubmaster: {github}/tree/master
+:githubmaster: {github}/blob/master/spring-cloud-security
 :docslink: {githubmaster}/src/main/asciidoc
 :nofooter:
 
@@ -169,5 +169,5 @@ authorization header removed. The default behaviour is to do a token
 relay if there is a token available, and passthru otherwise.
 
 See
-{githubmaster}/src/main/java/org/springframework/cloud/security/oauth2/proxy/ProxyAuthenticationProperties[
+{githubmaster}/src/main/java/org/springframework/cloud/security/oauth2/proxy/ProxyAuthenticationProperties.java[
 ProxyAuthenticationProperties] for full details.
